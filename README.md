@@ -44,4 +44,3 @@ Data is only stored on localStorage.
 The user interface is still quite basic.
 ### Environment Details
 Node.js version: v20.16.0
-Feel free to copy and paste this into your README!
