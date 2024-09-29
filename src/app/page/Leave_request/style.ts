@@ -20,6 +20,7 @@ const styles: Styles = {
     marginBottom: '15px',
     color: '#495057',
     textAlign: 'center',
+    fontFamily: 'ui-sans-serif',
   },
   form: {
     maxWidth: '400px',
@@ -85,6 +86,7 @@ const styles: Styles = {
     padding: '10px',
     textAlign: 'left',
     color: '#495057',
+    fontFamily: 'fangsong',
   },
 };
 
