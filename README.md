@@ -23,4 +23,4 @@ Sau khi chạy sẽ vào trang danh sách
 3. Sau khi điền yêu cầu xin nghỉ thì yêu cầu này sẽ được hiển thị bên trang yêu cầu xin nghỉ của admin, admin sẽ duyệt và dễ hiển thị yêu cầu trên trang của nhân viên.
 
 *Ưu điểm là trang web có logic rõ ràng trong quản lí nhân sự khi không dùng đăng ký tài khoản, vì tài khoản nhân viên do admin cấp chứ không thể đăng ký.
-*Nhược điểm là không thể thêm Header vào các trang, không tách biệt FE và BE ra rõ ràng, chỉ lưu data được trên localStorage.
+*Nhược điểm là không tách biệt FE và BE ra rõ ràng, chỉ lưu data được trên localStorage, giao diện còn khá đơn sơ.
