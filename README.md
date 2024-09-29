@@ -1,26 +1,47 @@
-Đầu tiên, tôi sẽ install project bằng lệnh npx create-next-app@latest hr_test
-Sau đó tôi sẽ cài đặt các thư viện như:
-antd: npm install antd
-react-icon: npm install react-icons
-react-router-dom: npm install react-router-dom
-Tiếp theo, tôi sẽ tạo một folder tên page để thực hiện dự án
+### Project Setup
+1. Install the project:
 
-**Cách chạy trang web
-Sau khi clone về máy sẽ dùng lệnh npm run build để build lại web
-Sau khi build thành công sẽ nhập npm start để chạy
-Đầu tiên dùng tài khoản admin để đăng nhập: 
+*Run the following command to create the Next.js app:
+### `npx create-next-app@latest hr_test`
+*Install the required libraries:
+### `npm install antd`
+### `npm install react-icons`
+### `npm install react-router-dom`
 
-*Tên tài khoản: admin
-*Mật khẩu: adminpassword
+2. Create folder structure:
+Create a folder named page where the project's components will be implemented.
 
-Sau khi chạy sẽ vào trang danh sách
-(Vì dữ liệu chỉ lưu trữ trên localStorage nên sẽ không có dữ liệu cũ)
+### Running the Web Application
+1. Build the project:
 
-1. nhập các thông tin của nhân viên và nhập tài khoản mật khẩu cho nhân viên.
+After cloning the project, run the following command to build the web application:
+### `npm run build`
+Once the build is successful, start the application with:
+### `npm start`
+2. Admin Login:
+Use the following credentials to log in as an admin:
+Username: `admin`
+Password: `adminpassword`
+3. Employee Management:
+Once logged in, you'll be directed to the employee list page. Since the data is stored in localStorage, there won't be any existing data.
 
-2. Sau khi đã có tài khoản nhân viên, bạn cần start lại web và đăng nhập vào tài khoản của nhân viên để xem thông tin vào yêu cầu xin nghỉ.
+4. Adding Employees:
+Enter the employee details and assign login credentials (username and password) for each employee.
 
-3. Sau khi điền yêu cầu xin nghỉ thì yêu cầu này sẽ được hiển thị bên trang yêu cầu xin nghỉ của admin, admin sẽ duyệt và dễ hiển thị yêu cầu trên trang của nhân viên.
+5. Employee Login:
+Restart the web application and log in using the newly created employee account to view employee information and request leave.
 
-*Ưu điểm là trang web có logic rõ ràng trong quản lí nhân sự khi không dùng đăng ký tài khoản, vì tài khoản nhân viên do admin cấp chứ không thể đăng ký.
-*Nhược điểm là không tách biệt FE và BE ra rõ ràng, chỉ lưu data được trên localStorage, giao diện còn khá đơn sơ.
+6. Leave Request:
+Employees can submit a leave request. Once submitted, the admin will see the request on the admin's leave approval page.
+7. Admin Leave Approval:
+Admins can approve or reject leave requests. The status will be displayed on the employee's page after approval.
+
+### Advantages
+The web application has clear logic for managing employees. There is no self-registration for employees, as admin manually assigns accounts to each staff member.
+### Limitations
+Frontend and backend are not separated clearly.
+Data is only stored on localStorage.
+The user interface is still quite basic.
+### Environment Details
+Node.js version: v20.16.0
+Feel free to copy and paste this into your README!
